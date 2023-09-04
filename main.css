@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Work Sans", sans-serif;
+}
+
+div{
+ height: 100vh;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ /* عمل لون للخلفيه*/
+ /* background-image: linear-gradient(#FFA8FF, #FA00FA); */
+}
+
+
+h1{
+ font-size: 80px;
+ font-weight: normal;
+}
+h1::before,
+h1::after{
+ content: "🐥";
+}
+
+p{
+ height: 100px;
+ width: 800px;
+ background-image: linear-gradient(#d91a4a, #52071a);
+ border-radius: 50px;
+ box-shadow: inset 0 0 #000000;
+ color: white;
+ line-height: 100px;
+ text-align: center;
+ font-size: 60px;
+ font-weight: normal;
+ margin-top: 60px;
+ box-shadow: 1px 1px 0px #992f43, 
+             2px 2px 0px #992f76, 
+             3px 3px 0px #5d2f99, 
+             4px 4px 0px #36517d,
+             5px 5px 0px #b02313;
+}
