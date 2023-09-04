@@ -4,24 +4,7 @@
   padding: 0;
   font-family: "Work Sans", sans-serif;
 }
-/* Small */
-@media (min-width: 768px) {
-  .container {
-    width: 750px;
-  }
-}
-/* Medium */
-@media (min-width: 992px) {
-  .container {
-    width: 970px;
-  }
-}
-/* Large */
-@media (min-width: 1200px) {
-  .container {
-    width: 1170px;
-  }
-}
+
 div{
  height: 100vh;
  display: flex;
@@ -41,6 +24,12 @@ h1::before,
 h1::after{
  content: "🐥";
 }
+/* Small */
+@media (max-width: 768px) {
+  h1 {
+   font-size: 40px;
+  }
+}
 
 p{
  height: 100px;
@@ -59,4 +48,11 @@ p{
              3px 3px 0px #5d2f99, 
              4px 4px 0px #36517d,
              5px 5px 0px #b02313;
+}
+/* Small */
+@media (max-width: 768px) {
+  p {
+   font-size: 30px;
+   width: 450px;
+  }
 }
